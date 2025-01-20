@@ -1,4 +1,10 @@
 // src/index.ts
+
+// Load Firebase environment variables
+import * as dotenv from 'dotenv';
+dotenv.config();
+
+// Imports required packages
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import { RecipeParser } from './utils/parser';
